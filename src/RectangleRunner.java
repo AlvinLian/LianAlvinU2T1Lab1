@@ -15,5 +15,12 @@ public class RectangleRunner {
         int totalSeed = plot1Area + plot2Area + plot3Area;
         System.out.println("These three plots requires " + totalSeed + " square feet of seed");
 
+        int len = 65;
+        int wid = len + 10;
+        Rectangle rect1 = new Rectangle(len, wid);
+        Rectangle rect2 = new Rectangle(10, 30);
+        Rectangle rect3 = new Rectangle(0);
+
+
     }
 }
